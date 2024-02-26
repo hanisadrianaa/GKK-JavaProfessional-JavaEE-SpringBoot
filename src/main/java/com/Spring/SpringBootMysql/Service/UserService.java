@@ -1,4 +1,4 @@
-package com.Spring.SpringBootMysql.Service;
+package com.Spring.SpringBootMysql.service;
 
 
 import com.Spring.SpringBootMysql.model.User;
