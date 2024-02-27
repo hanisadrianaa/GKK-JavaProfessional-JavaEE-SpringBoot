@@ -1,11 +1,11 @@
-## GKK YP Java Professional - FG C3
+# GKK YP Java Professional - FG C3
 
 The workspace contains related to GKK YP Java Professional.
 
-# Mysql CURD API using Spring Boot, MySQL, JPA, Hibernate Rest
+## Mysql CURD API using Spring Boot, MySQL, JPA, Hibernate Rest
 
 
-## Requirements
+### Requirements
 
 Add dependency :
 
@@ -16,7 +16,7 @@ MySQL Driver SQL,
 Spring Security SECURITY,
 jakarta validation
 
-## Steps to Setup
+### Steps to Setup
 
 **1. Clone the application**
 
@@ -53,7 +53,7 @@ mvn spring-boot:run
 
 The app will start running at <http://localhost:8080>.
 
-## Rest APIs
+### Rest APIs
 
 GET API :
 
@@ -78,8 +78,8 @@ Post API
 curl --location --request POST 'http://localhost:8080/addMember' \
 --header 'Content-Type: application/json' \
 --data-raw '{
- "memberID": 5536,
- "name": "Hasreen KHAIRINA ",
- "emailId": "nasreenkhairina@gmail.com"
+ "memberID": 23,
+ "name": "HANIS ADRIANA",
+ "emailId": "hanis123@gmail.com"
 }'
    ```
